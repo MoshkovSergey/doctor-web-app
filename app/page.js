@@ -1,3 +1,4 @@
+import CategorySearch from "./_components/CategorySearch";
 import Hero from "./_components/Hero";
 
 export default function Home() {
@@ -5,6 +6,9 @@ export default function Home() {
     <div>
       {/* Hero section */}
       <Hero />
+
+      {/* Search bar + category */}
+      <CategorySearch />
     </div>
   );
 }
